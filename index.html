@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- link to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- link to google fonts -->
+    <!-- icons -->
+    <!-- https://github.com/manifestinteractive/weather-underground-icons -->
+    <!-- https://peter.build/weather-underground-icons/ -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" class="search-button" id="search-btn"></button>
+            </div>
+        </div>
+        <div class="weather-body">
+            <p class="city">Weather in <span class="location-city">Tokyo</span>,<span class="location-country">JP</span></p>
+
+            <div class="weather-box">
+                <p class="temperature"><span class="temp">16</span>&#176;c</p>
+
+                <div class="description">
+                    <div class="weather">
+                        <img src="resources/mostlycloudy.svg" class="weather-image" alt="weathe Image">
+
+                        <span class="status">Cloudy</span>
+
+                    </div>
+
+                    <p class="description-2" >Humidity: </p>
+                    <span class="description-2" style="margin-bottom: 1%;"><span class="humidity-status">16</span> %</span>
+                    <br>
+                    <p class="wind description-2">Wind: </p>
+                    <span class="description-2"><span class="wind-status">3.65</span> km/h</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/7c1fe3366f.js" crossorigin="anonymous"></script>
+    <script src="main.js" ></script> 
+
+</body>
+
+</html>
