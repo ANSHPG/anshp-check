@@ -21,38 +21,76 @@
 
 <body>
     <div class="container">
+
+        <div class="author">
+            <span class="app-name">AnshpCast</span>
+            <span class="author-name">by Anshuman Pattnaik</span>
+            <a href="" style="text-decoration: none;"><span class="git-hub">Git-Hub</span></a>
+        </div>
+
         <div class="header">
             <div class="search-box">
                 <input type="text" placeholder="Enter your location" class="input-box">
                 <button class="fa-solid fa-magnifying-glass" class="search-button" id="search-btn"></button>
             </div>
+
+
         </div>
+
+
+        <div class="error">
+            <div class="location-not-found">
+                <h1>Sorry location not found!</h1>
+                <img src="assets/unknown.svg" alt="404">
+            </div>
+        </div>
+
+
+
         <div class="weather-body">
-            <p class="city">Weather in <span class="location-city">Tokyo</span>,<span class="location-country">JP</span></p>
+            <p class="city">Weather in <span class="location-city">Tokyo</span>,<span class="location-country">JP</span>
+            </p>
+
 
             <div class="weather-box">
-                <p class="temperature"><span class="temp">16</span>&#176;c</p>
+                <p class="temperature"><span class="temp">16</span>&#176;C</p>
 
                 <div class="description">
                     <div class="weather">
-                        <img src="resources/mostlycloudy.svg" class="weather-image" alt="weathe Image">
+                        <img src="assets/clear.svg" class="weather-image" alt="weathe Image">
 
-                        <span class="status">Cloudy</span>
+                        <span class="status">Clear Sky</span>
 
                     </div>
+                    <div class="description-div">
+                        <div>
+                            <p class="description-2">Humidity:</p>
+                            <span class="description-2" style="margin-bottom: 1%; margin-right: 17px;"><span
+                                    class="humidity-status">16</span>
+                                %</span>
 
-                    <p class="description-2" >Humidity: </p>
-                    <span class="description-2" style="margin-bottom: 1%;"><span class="humidity-status">16</span> %</span>
-                    <br>
-                    <p class="wind description-2">Wind: </p>
-                    <span class="description-2"><span class="wind-status">3.65</span> km/h</span>
+                            <p class="wind description-2">Wind: </p>
+                            <span class="description-2"><span class="wind-status">3.65</span> km/h</span>
+                            <br>
+                        </div>
+
+                        <div>
+                            <p class="description-2">Feels like:</p>
+                            <span class="description-2" style="margin-bottom: 1%; margin-right: 15px;"><span
+                                    class="feels-like">16</span>
+                                &#176;C</span>
+                            <p class="description-2">High/Low:</p>
+                            <span class="description-2" style="margin-bottom: 1%;"><span class="high">16</span>
+                                / <span class="low">14</span> &#176;C</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <script src="https://kit.fontawesome.com/7c1fe3366f.js" crossorigin="anonymous"></script>
-    <script src="main.js" ></script> 
+    <script src="main.js"></script>
 
 </body>
 
