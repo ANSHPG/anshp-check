@@ -186,3 +186,7 @@ body{
 
     
 }
+
+.high , .low{
+    font-size: 1rem;
+}
